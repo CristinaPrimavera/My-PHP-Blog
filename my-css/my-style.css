@@ -1,0 +1,15 @@
+ul#index {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.show-categories {
+    font-size: small;
+    color: #5A5A5A;
+}
+
+h4 {
+    padding-top: 5px;
+    border-bottom: dotted;
+    border-bottom-width: thin;
+}
