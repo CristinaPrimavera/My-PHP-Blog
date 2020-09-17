@@ -102,9 +102,9 @@ if ($images_file) {
 }
 
 
-?>
 
-<?php require "../includes/my-header.php";?>
+
+require "../includes/my-header.php";?>
 
 <h2>Edit article image:</h2>
 <?= $showImage; ?>

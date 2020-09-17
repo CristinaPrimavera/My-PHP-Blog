@@ -47,9 +47,7 @@ if ($table_array) {
 
 
 
-?>
-
-<?php require "../includes/my-header.php";?>
+require "../includes/my-header.php";?>
 
 <h2>Blog article:</h2>
 <br>

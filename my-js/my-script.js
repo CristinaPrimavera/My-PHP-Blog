@@ -13,5 +13,5 @@ $("a.nav-link.delete").on("click", function(e){
     }
 });
 
-/*It's not working as expected. After clicking the button and saying yes to the confirmation message,
+/*It's not working as expected. After clicking the delete button and saying yes to the confirmation message,
 * I'm still being redirected to the delete file page*/

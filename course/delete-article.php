@@ -36,9 +36,9 @@ if (isset($_POST['id']) && isset($_POST['function']) && $_POST['function'] == 'd
     }
 }
 
-?>
 
-<?php require "../includes/my-header.php";?>
+
+require "../includes/my-header.php";?>
 
 <h2>Delete article:</h2>
 

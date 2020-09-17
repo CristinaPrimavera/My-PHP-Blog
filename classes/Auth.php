@@ -24,7 +24,7 @@ class Auth
 
         if (! Auth::isLoggedIn()) {
 
-            header("Location: ../includes/course-login.php");
+            header("Location: ../includes/login.php");
         }
     }
 

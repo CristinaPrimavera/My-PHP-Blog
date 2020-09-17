@@ -65,11 +65,10 @@ if ($paginator->next) {
     $nextElement .= '<a class="page-link" href="index.php?page='.$pageElement.'">Next</a>';
 }
 
-?>
 
 
-
-<?php require "../includes/my-header.php";?>
+/*HTML-Template*/
+require "../includes/my-header.php";?>
 
 <ul id="index">
     <?= $tableString; ?>

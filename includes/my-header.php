@@ -1,4 +1,3 @@
-
 <?php
 
 //*****Creating variables to process login links on the template
@@ -6,10 +5,10 @@ $loggedInMessage = '';
 $notLoggedMessage = '';
 if (Auth::isLoggedIn()) {
 
-    $loggedInMessage .= '<a class="nav-link" href="../includes/course-logout.php">Log out</a>';
+    $loggedInMessage .= '<a class="nav-link" href="../includes/logout.php">Log out</a>';
 
 } else {
-    $notLoggedMessage .= '<a class="nav-link" href="../includes/course-login.php">Log in</a>';
+    $notLoggedMessage .= '<a class="nav-link" href="../includes/login.php">Log in</a>';
 }
 
 

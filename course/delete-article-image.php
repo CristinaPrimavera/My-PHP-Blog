@@ -44,9 +44,8 @@ if ($images_file) {
 }
 
 
-?>
 
-<?php require "../includes/my-header.php";?>
+require "../includes/my-header.php";?>
 
 <h2>Delete article image:</h2>
 <?= $tableImage; ?>

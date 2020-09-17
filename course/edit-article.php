@@ -72,9 +72,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-?>
 
-<?php require "../includes/my-header.php";?>
+
+require "../includes/my-header.php";?>
 
 <h2>Edit article:</h2>
 <ul><?= $errorString ?></ul>
